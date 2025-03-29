@@ -11,8 +11,8 @@ def nba() -> None:
         Parse command-line arguments and display either scoreboard or standings.
         """
         parser = argparse.ArgumentParser(description="NBA Scoreboard and Standings")
-        parser.add_argument('--scores', action='store_true', help='Display the scoreboard')
-        parser.add_argument('--standings', action='store_true', help='Display the standings')
+        parser.add_argument('--scores', '-sc', action='store_true', help='Display the scoreboard')
+        parser.add_argument('--standings', '-st', action='store_true', help='Display the standings')
         args = parser.parse_args()
 
         games, ranks = fetch_data.fetch_data()

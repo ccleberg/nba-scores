@@ -4,6 +4,7 @@ Tabulate the current conference standings.
 from tabulate import tabulate
 
 # ANSI escape codes for text formatting
+BOLD = '\033[1m'
 END = '\033[0m'
 RED = '\033[91m'
 GREEN = '\033[32m'

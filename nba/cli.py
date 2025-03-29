@@ -15,11 +15,11 @@ def nba() -> None:
         parser.add_argument('--standings', action='store_true', help='Display the standings')
         args = parser.parse_args()
 
-        games, standings = fetch_data.fetch_data()
+        games, ranks = fetch_data.fetch_data()
 
         if args.scores:
-                scores.build_scoreboard(games, standings)
+                scores.build_scoreboard(games, ranks)
         elif args.standings:
-                standings.build_standings(standings)
+                standings.build_standings(ranks)
         else:
                 print("Please specify --scores or --standings")

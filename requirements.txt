@@ -1,0 +1,3 @@
+argparse
+nba_api
+tabulate

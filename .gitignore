@@ -1,4 +1,4 @@
 .DS_Store
 venv/
 dist/
-nba-scores.egg*
+nba-scores.egg-info*

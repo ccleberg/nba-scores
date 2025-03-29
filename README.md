@@ -19,7 +19,7 @@ for more information.
 ## PyPi
 
 ```shell
-pipx install nba-cli
+pipx install nba-scores
 ```
 
 ## Manual

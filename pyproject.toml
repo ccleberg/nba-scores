@@ -1,5 +1,5 @@
 [project]
-name = "nba-cli"
+name = "nba-scores"
 version = "0.1.0"
 authors = [
   { name="Christian Cleberg", email="hello@cmc.pub" },
@@ -20,8 +20,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/ccleberg/nba-cli"
-Issues = "https://github.com/ccleberg/nba-cli/issues"
+Homepage = "https://github.com/ccleberg/nba-scores"
+Issues = "https://github.com/ccleberg/nba-scores/issues"
 
 [project.scripts]
 nba = "nba.cli:nba"

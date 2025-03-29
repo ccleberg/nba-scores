@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/nba-cli
+      url: https://pypi.org/p/nba-scores
     permissions:
       id-token: write
     steps:

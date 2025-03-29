@@ -32,7 +32,7 @@ cd nba
 pipx install .
 ```
 
-![Installation](https://github.com/ccleberg/nba/blob/main/examples/installation.png?raw=true)
+![Installation](https://github.com/ccleberg/nba/blob/main/screenshots/installation.png?raw=true)
 
 # Usage
 
@@ -47,10 +47,10 @@ All commands can be passed to the program with the following template:
 | `--standings` | `-st`    | Show current conference standings |
 
 Scores:
-![Scores](https://github.com/ccleberg/nba/blob/main/examples/scores.png?raw=true)
+![Scores](https://github.com/ccleberg/nba/blob/main/screenshots/scores.png?raw=true)
 
 Standings:
-![Standings](https://github.com/ccleberg/nba/blob/main/examples/standings.png?raw=true)
+![Standings](https://github.com/ccleberg/nba/blob/main/screenshots/standings.png?raw=true)
 
 # Contributing
 

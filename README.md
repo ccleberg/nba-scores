@@ -3,7 +3,8 @@
 NBA is a simple Python package that provides you with a quick and easy
 command-line interface to current NBA scores and standings.
 
-See the Installation & Usage sections below for more information.
+See the [Installation](#installation) & [Usage](#usage) sections below
+for more information.
 
 # Table of Contents
 
@@ -18,7 +19,7 @@ See the Installation & Usage sections below for more information.
 ## PyPi
 
 ```shell
-bash pipx install nba-cli
+pipx install nba-cli
 ```
 
 ## Manual

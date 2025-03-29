@@ -1,3 +1,4 @@
+json
 argparse
 nba_api
 tabulate
